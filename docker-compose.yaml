@@ -23,7 +23,7 @@ services:
    - redis
   cart:
    image: giribantu/cart:v1
-   contianer_name: cart
+   container_name: cart
    depends_on:
    - catalogue
    - redis
