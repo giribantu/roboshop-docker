@@ -18,7 +18,7 @@ services:
   user:
    image: giribantu/user:v1
    container_name: user
-   depens_on:
+   depends_on:
    - mongodb
    - redis
   cart:
