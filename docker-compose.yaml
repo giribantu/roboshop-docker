@@ -28,7 +28,7 @@ services:
    - catalogue
    - redis
   mysql:
-   iamge: giribantu/mysql:v1
+   image: giribantu/mysql:v1
    container_name: mysql
   shipping:
    image: giribantu/shipping:v1
